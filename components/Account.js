@@ -14,7 +14,7 @@ import {useNavigation} from '@react-navigation/native';
 
 const Account = ({handleAccessToken, auth0, action}) => {
   const navigation = useNavigation();
-  console.log('name: ' + navigation.state);
+
   useEffect(() => {
     const handleLogin = navigation.addListener('focus', () => {
       // The screen is focused

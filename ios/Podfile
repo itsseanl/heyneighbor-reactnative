@@ -79,6 +79,8 @@ target 'heyneighborrn' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'react-native-location', :path => '../node_modules/react-native-location'
+
   target 'heyneighborrnTests' do
     inherit! :complete
     # Pods for testing
